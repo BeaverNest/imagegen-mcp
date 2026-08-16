@@ -17,6 +17,10 @@ output/
 *.png
 *.webp
 
+# But keep example images for the README gallery
+!examples/
+!examples/*.jpeg
+
 # OS / editor
 .DS_Store
 *.swp

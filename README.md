@@ -15,6 +15,20 @@ Free, keyless image generation for any MCP-enabled AI agent. Give your assistant
 - **Local-first output** — images are saved to disk and returned as file paths; nothing is uploaded to a third party beyond the image request itself.
 - **Defensive by design** — prompt length limits, output-dir writability checks, and structured `{ok, ...}` / `{ok: false, error}` responses for clean agent error handling.
 
+## See it in action
+
+Real outputs generated with this server (Pollinations / Flux, no API key, no post-processing):
+
+![16:9 — rainy city car](examples/example_16x9_city.jpeg)
+
+![1:1 — mountain lake sunrise](examples/example_1x1_landscape.jpeg)
+
+![9:16 — rooftop robot gardener](examples/example_9x16_person.jpeg)
+
+![4:3 — product shot](examples/example_4x3_product.jpeg)
+
+Every image above was produced by a single `generate_image` call with just a text prompt and an aspect ratio.
+
 ## How it works
 
 ```
